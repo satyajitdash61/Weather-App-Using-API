@@ -1,0 +1,48 @@
+<!-- Weather app -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title></title>
+
+</head>
+<body>
+
+    <div class='outer'>
+        <p class="WeatherApp"><span class="Weather">Weather</span><span class="App"> App</span></p>
+    </div>
+
+        <!-- The weather box -->
+
+        <div class='box'>
+            <p class="p_one" id="p_one">Bengaluru, IN</p>
+            <p class="p_two" id="p_two">Wednesday, 1:00 am</p>
+            <p class="p_six" id="p_six">cloudy</p>
+            <p class="p_seven" id="p_seven">26</p>
+            <p class="p_eigth" id="p_eigth" onclick="c()">&#8451;</p>
+            <p class="p_nine" id="p_nine" onclick="f()">&#8457;</p>
+            <p class="p_ten" id="p_ten">|</p>
+            <img src="" id="myImg" style='font-size:20px;color:rgb(185, 181, 181); position: absolute;top: 28%;left: 27%'></img>
+            
+            <div > 
+                 <h>Enter City Name</h>
+            </div>
+            <!-- Search City -->
+
+            <div class='search_item'>
+                <input type="text" class="inputbox" placeholder="Enter city name">
+                <input type="button" class="searchbutton" value="submit">
+            </div>
+        </div>
+    
+   
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="weather.js"></script>
+</html> 

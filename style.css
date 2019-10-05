@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+/* .outer{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    background-size: cover;
+    background-image: linear-gradient(27deg,#1e90ff,#1abc9c);
+
+} */
+.outer{
+    width: 50%;
+    height: 100vh;
+    background-color: rgb(67, 150, 228);
+    /* background-size: cover; */
+    /* background-image: linear-gradient(27deg,#1e90ff,#1abc9c); */
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.WeatherApp{
+    
+   
+
+}
+.Weather{
+    font-size: 36px;
+    font-family: sans-serif;
+    color: aliceblue;
+
+}
+.App{
+    font-size: 36px;
+    font-family: sans-serif;
+    
+}
+.box{
+    background-color: whitesmoke;
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    left: 50%;
+}
+.p_one{
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    font-size: 30px;
+}
+.p_two{
+ position: absolute;
+ top: 27%;
+ left: 20%;
+}
+.p_three{
+    position: absolute;
+    top: 27%;
+    left: 29%;
+}
+.p_four{
+    position: absolute;
+    top: 27%;
+    left: 33%;
+}
+.p_five{
+    position: absolute;
+    top: 27%;
+    left: 38%;
+}
+.p_six{
+    position: absolute;
+    top: 33%;
+    left: 20%;
+}
+.p_seven{
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    font-size:50px;
+}
+.p_eigth{
+    position: absolute;
+    top: 40.5%;
+    left: 31%;  
+    cursor: pointer;
+}
+.p_nine{
+    position: absolute;
+    top: 40.5%;
+    left: 35%;  
+    cursor: pointer;
+}
+.p_ten{
+    position: absolute;
+    top: 40.15%;
+    left: 34%; 
+}
+h{
+    position: absolute;
+    top: 60%;
+    left: 20%
+}
+/* input{
+    position: absolute;
+    width: 45%;
+    height: 5%;
+    top: 65%;
+    left: 20%;
+} */
+.search_item{
+    position: absolute;
+    top: 65%;
+    left: 20%;
+
+}
+.inputbox{
+    height: 5vh;
+    border-radius: 10px;
+    padding-left: 5px;
+    border: none;
+    background-color: rgb(203, 240, 240)
+}
+.searchbutton{
+    height: 5.5vh;
+    width: 18%;
+    border-radius: 10px;
+    border: none;
+}
+.drop{
+    width: 200%;
+    height:  30px;
+}
+.p_eleven{
+    position: absolute;
+    top: 27%;
+    left: 41%;
+}
+.p_twelve{
+    position: absolute;
+    top: 27%;
+    left: 43%;
+}
+.sun{
+  height: 10px;
+  width: 10px;
+}

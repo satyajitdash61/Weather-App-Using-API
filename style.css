@@ -156,3 +156,8 @@ h{
     align-items: center;
     display: none;
 }
+#loading{
+    height: 10%;
+    width: 9%;
+    opacity: 0.5;
+}

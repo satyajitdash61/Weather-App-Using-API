@@ -30,6 +30,13 @@ document.querySelector(".searchbutton").addEventListener("click",function(){
         }
     });
 })
+function progress(){
+    $(document).ajaxStart(function(){
+       javascipt:document.getElementById('gif').style.display = "flex";
+    }).ajaxStop(function(){
+        javascipt:document.getElementById('gif').style.display = "none";
+    })
+}
 
     var currentdate = new Date();
     var days=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];

@@ -7,4 +7,4 @@ This is a simple Weather App. Here a user can search a perticular place and find
 Html, CSS, JavaScript
 
 # Preview
-https://peaceful-knuth-059dc7.netlify.com/
+https://upbeat-fermi-08548d.netlify.com/

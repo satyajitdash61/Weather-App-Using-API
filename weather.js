@@ -12,6 +12,7 @@ document.querySelector(".searchbutton").addEventListener("click",function(){
         success: function (data) {
             jsonFile=data
             console.log(jsonFile);
+            progress();
             temperature=Math.round(jsonFile.main.temp);
             console.log(jsonFile.name);
             document.getElementById("p_one").innerHTML=jsonFile.name+", "+jsonFile.sys.country;

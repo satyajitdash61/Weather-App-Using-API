@@ -11,7 +11,7 @@ document.querySelector(".searchbutton").addEventListener("click",function(){
         type: 'GET',
         success: function (data) {
             jsonFile=data
-            console.log(jsonFile);
+//             console.log(jsonFile);
             progress();
             temperature=Math.round(jsonFile.main.temp);
             console.log(jsonFile.name);
